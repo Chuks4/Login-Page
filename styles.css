@@ -1,0 +1,114 @@
+body{
+	background:url(login.jpg) no-repeat;
+	background-position:center;
+	background-size: cover;
+	height:600px;
+	width:400px;
+	font-size: sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;
+}
+.loginbox{
+	width:520px;
+	height:620px;
+	top:70px;
+	left:525px;
+	position:absolute;
+	transform:absolute(--50% ,--50%);
+	box-sizing: border-box;
+	background:grey;
+	color:white;
+	padding:60px;
+	margin:auto;
+	align-self: center;
+	border-radius: 60px;
+}
+	
+.loginbox h2{
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	top:-10px;
+    border-bottom:solid 2px white;
+}
+.image{
+	width:100px;
+	height:100px;
+	border-radius:20px;
+	position:absolute;
+	left:calc(50% - 50px );
+	top:-50px;
+}
+.loginbox p{
+	font-family: sans-serif;
+	font-size: 20px;
+	height:40px;
+	text-align: center;
+	margin-top:40px;
+
+}
+.loginbox input[type="text/css" ]{
+	border:none;
+	outline:none;
+	border-bottom:solid 2px white;
+	background:grey;
+	color:white;
+	width:250px;
+	height: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+.loginbox input[type="password" ]{
+	border:none;
+	outline:none;
+	border-bottom:solid 2px white;
+	background:grey;
+	color:white;
+	width:250px;
+	height: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.loginbox input[type="submit"]{
+	border-radius:20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-weight:17px;
+	background:white;
+	color:grey;
+	width:200px;
+	height: 35px;
+	outline:none;
+	text-decoration: none;
+	
+}
+
+.loginbox input[placeholder="Enter your name"]{
+	text-align: center;
+	background-color:white;
+	color:grey;
+}
+
+.loginbox input[placeholder="Enter your registration number"]{
+	text-align: center;
+	background-color:white;
+	color:grey;
+}
+
+
+.loginbox input[placeholder="Enter your department"]{
+	text-align: center;
+	background-color:white;
+	color:grey;
+}
+.loginbox input[placeholder="Enter your password"]{
+	text-align: center;
+	background-color:white;
+	color:grey;
+
+
+
